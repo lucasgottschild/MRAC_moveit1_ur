@@ -18,7 +18,7 @@ from pilz_robot_program.pilz_robot_program import Lin, Ptp, Sequence
 home = (0.0, -pi/2.0, pi/2.0, -pi, -pi/2, 0)
 
 pose_list = poses_list_from_yaml(
-    '/dev_ws/src/ur10e_examples/toolpaths/scan.yaml')
+    '/dev_ws/src/ur10e_examples/toolpaths/poses_c.yaml')
 toolpath = [list_to_pose(pose) for pose in pose_list]
 
 # define end effector
@@ -51,8 +51,8 @@ stop_srv_req.mesh_filepath = '/home/lucas/test.ply'
 
 # define speed and acceleration
 
-move_vel = 0.5
-move_acc = 0.5
+move_vel = 0.7
+move_acc = 0.7
 
 # fine scan
 # scan_vel = 0.05
