@@ -64,7 +64,7 @@ scan_acc = 0.005
 
 # boolean to enable/disable reconstruction
 # for testing purposes
-scan = False
+scan = True
 
 
 def robot_program():
