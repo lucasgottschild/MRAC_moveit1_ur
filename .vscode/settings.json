@@ -46,5 +46,6 @@
         "urdf"
     ],
     // vscode
-    "problems.decorations.enabled": false
+    "problems.decorations.enabled": false,
+    "cmake.sourceDirectory": "${workspaceFolder}/universal_robot/ur10e_moveit_config"
 }
